@@ -1,0 +1,102 @@
+:root {
+    --section-overlay: rgb(152, 152, 161);
+    --background-obverlay: rgba(0, 0, 0, 0.082);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: verdana, geneva, Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.app {
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+
+.overlay {
+    width: 100%;
+    height: 100vh;
+    background-color: var(--background-obverlay);
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+
+/* top section */
+
+.section {
+    width: 100%;
+    padding: 1rem;
+    border-radius: 0.4 rem;
+    color: white;
+    align-items: right;
+}
+
+.section_inputs,
+.section_temperature {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: rgba(150, 147, 147, 0.5);
+    border-radius: 00.4rem;
+}
+
+.section_inputs>input {
+    border: 0.8px solid;
+    border-radius: 00.4rem;
+    background-color: transparent;
+    color: white;
+    padding: 0.20 rem;
+    font-size: 30px;
+    font-weight: 200;
+}
+
+.section_inputs>input:focus {
+    outline: none;
+}
+
+.section_inputs>button {
+    padding: 10px 50px;
+    border: none;
+    border-radius: 00.4rem;
+    font-size: 20px;
+    font-weight: 500;
+    background-color: white;
+}
+
+.section_inputs>button:hover {
+    cursor: pointer;
+    background-color: lightgray;
+}
+
+.icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon>h3 {
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+.temperature>h1 {
+    font-size: 40px;
+    font-weight: 500;
+    text-align: end;
+}
