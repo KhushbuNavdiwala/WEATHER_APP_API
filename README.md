@@ -1,3 +1,18 @@
+# Weather API using React.js with TypeScript
+This project is a responsive weather application built using React.js and TypeScript. It leverages the OpenWeatherMap API to fetch current weather data for specified locations. With this weather API, you can quickly and easily access up-to-date weather information for your chosen areas.
+
+ # Features
+Real-time weather data retrieval from OpenWeatherMap API.\
+A responsive and user-friendly interface for displaying weather information.\
+Built using React.js and TypeScript for robust and maintainable code.\
+# Dynamic background changing according to the temperature of the city.
+
+![image](https://github.com/KhushbuNavdiwala/WEATHER_APP_API/assets/77695748/22a006ca-91de-4d74-b26f-97d31865bd44)
+
+![image](https://github.com/KhushbuNavdiwala/WEATHER_APP_API/assets/77695748/37e0d8a1-b034-4b39-8648-a796518c40af)
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
